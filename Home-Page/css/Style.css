@@ -15,6 +15,7 @@ body {
     align-items: center;
     padding-left: 30px;
     position: fixed;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
 }
 .img-box img {
     width: 100%;
