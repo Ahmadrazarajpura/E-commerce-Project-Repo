@@ -22,7 +22,6 @@ body {
     height: 50px;
     object-fit: cover;
     border-radius: 10px;
-    
 }
 .contain-box  {
     display: flex;
@@ -58,13 +57,15 @@ body {
     background-size: cover;
     background-position: center;
 }
-.main-shop-box h1{
+.main-shop-box h1 a{
     font-family: "Poppins", sans-serif;
     font-size: 25px;
     color: #9F9F9F;
     margin-top: 100px;
     margin-left: 70px;
     font-weight: 300;
+    text-decoration: none;
+    display: flex;
 }
 
 .main-shop-box img{
@@ -73,13 +74,15 @@ body {
     margin-left: 20px;
     margin-top: 100px;
 }
-.main-shop-box h2{
+.main-shop-box h2 a{
     font-family: "Poppins", sans-serif;
     font-size: 25px;
     color: #9F9F9F;
     margin-top: 100px;
     margin-left: 20px;
     font-weight: 300;
+    text-decoration: none;
+    display: flex;
 }
 .main-shop-box span img{
     font-family: "Poppins", sans-serif;
