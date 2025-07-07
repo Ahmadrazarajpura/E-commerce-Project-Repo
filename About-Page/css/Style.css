@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+.main-box-1 {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    position: fixed;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.img-box img {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.contain-box  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-left: 445px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+.contain-box a{
+    color: black;
+    text-decoration: none;
+}
+.icon-1 img{
+    width: 32px;
+    height: 27px;
+    margin-left: 46.67px;
+
+}
+.icon-1{
+    margin-left: 325px;
+}
+
+.main-shop-box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: antiquewhite;
+    background-image: url(Rectangle\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-shop-box h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #9F9F9F;
+    margin-top: 100px;
+    margin-left: 70px;
+    font-weight: 300;
+}
+
+.main-shop-box img{
+    width: 10px;
+    height: 10px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.main-shop-box h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #9F9F9F;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+.main-shop-box span img{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #000;
+    margin-top: 105px;
+    margin-left: 20px;
+    font-weight: 300;
+    width: 5px;
+    height: 50px;
+}
+.main-shop-box h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    color: #000;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.main-contain-box-1-image{
+    width: 100%;
+    height: 820px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: aqua;
+    gap: 50px;
+}
+.main-about-box-1{
+    width: 100px;
+    height: 100px;
+    background-color: #F9F1E7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-image: url(Outdoor\ sofa\ set\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-about-box-2{
+    width: 100px;
+    height: 100px;
+    background-color: #F9F1E7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-image: url(Outdoor\ sofa\ set_2\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-about-box-3{
+    width: 100px;
+    height: 100px;
+    background-color: #F9F1E7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-image: url(Stuart\ sofa\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.main-about-box-4{
+    width: 100px;
+    height: 100px;
+    background-color: #F9F1E7;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    margin-left: 100px;
+    border-radius: 20px;
+    background-image: url(Maya\ sofa\ three\ seater\ \(1\)\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-image-about-1{
+    width: 423px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #F9F1E7;
+    background-image: url(Stuart\ sofa\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.main-contain-box-1-text{
+    width: 607px;
+    height: 730px;
+    background-color: aliceblue;
+}
+.main-contain-box-1-text h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.main-contain-box-1-text h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.main-contain-box-1-text img{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.test-image img{
+    width: 3px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.test-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -52px;
+    margin-left: 100px;
+}
+.test-image h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.main-contain-box-1-text h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.main-size-button{
+    margin-top: 30px;
+    display: flex;
+
+}
+.main-size-button-0{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.main-size-button-1 button{
+    width: 50px;
+    height: 50px;
+    background-color: #B88E2F;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-size-button-2 button{
+    width: 50px;
+    height: 50px;
+    background-color: #B88E2F;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-size-button-3 button{
+    width: 50px;
+    height: 50px;
+    background-color: #B88E2F;
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-size-button{
+    margin-top: 30px;
+    display: flex;
+
+}
+.main-size-button-4{
+    display: flex;
+    justify-content: start;
+    margin-top: 30px;
+    margin-left: -50px;
+}
+.main-size-button-5{
+    width: 50px;
+    height: 50px;
+    background-color: #816DFA;
+    border: none;
+    border-radius: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-size-button-6{
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    border-radius: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-size-button-7{
+    width: 50px;
+    height: 50px;
+    background-color: #B88E2F;
+    border: none;
+    border-radius: 100px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
